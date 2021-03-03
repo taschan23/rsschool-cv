@@ -28,3 +28,22 @@ Want to improve knowledge in front-end. Fast learner. Always worked alone, want 
 let str = "Hello for evryone who reads this CV!";
 concole.log(str);
 ```
+
+#experience
+------
+
+Self-study.
+
+[UnimetriQ](https://cabinet.unimetriq.com). Developer&CEO. Created a ERP-system for tracking vending machines (at atart self-written but then use laravel). Private bitbuckect-repo.
+
+Created a ERP-system and mainpage for Engels Coworking [Bekker-place](https://www.bekker-place.ru)
+
+#education
+------
+
+higher engineering education in the field of lifting mechanisms
+
+#about english
+------
+
+Intermediate. I can read and understand texts but so far only speak through an interpreter
