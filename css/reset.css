@@ -1,0 +1,73 @@
+/************************************************************************************
+Reset
+*************************************************************************************/
+
+* {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+
+h3 {
+	font-size: 1.500rem;
+	line-height: 2rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+}
+
+h5 {
+	font-size: 1.125rem;
+	line-height: 1.575rem
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
