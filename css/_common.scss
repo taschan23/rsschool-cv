@@ -1,0 +1,74 @@
+/************************************************************************************
+COMMON
+*************************************************************************************/
+
+.wrapper, body, html {
+	min-height: 100%;
+}
+
+.wrapper {
+	position: relative;
+	width: 1080px;
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.content-wrapper {
+	font-size: 1.1em;
+	height: 100%;
+	margin-left: 300px;
+	padding: 0 25px;
+}
+
+.container {
+	margin: 30px 0;
+}
+
+.section-title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.section-title-circle {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	background: #fbd900;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.section-title-circle::before {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	color: #fff;
+}
+
+a,
+a:visited {
+	color: #ccdbe0;
+}
+
+.content-wrapper a,
+.content-wrapper a:visited {
+	color: #2e73ff !important;
+}
+
+
+a:hover {
+	-webkit-filter: brightness(1.2);
+	filter: brightness(1.2);
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}

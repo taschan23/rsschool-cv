@@ -1,7 +1,6 @@
 /************************************************************************************
-Reset
+RESET
 *************************************************************************************/
-
 * {
 	vertical-align: baseline;
 	font-family: inherit;
@@ -11,12 +10,18 @@ Reset
 	margin: 0;
 }
 
-.text-uppercase {
-	text-transform: uppercase;
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
 }
 
-.img-circle {
-	border-radius: 50%;
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212b30;
+	background-color: #f7fafb;
+	text-align: left;
 }
 
 a,
