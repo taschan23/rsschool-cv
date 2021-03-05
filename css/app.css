@@ -244,4 +244,17 @@ a:hover {
   -moz-border-radius: 8px;
 }
 
+.footer {
+  padding: 10px 0;
+  background-color: #eef0f1;
+}
+.footer .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer .rs-logo {
+  float: right;
+  width: 60px;
+}
+
 /*# sourceMappingURL=app.css.map */
