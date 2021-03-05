@@ -96,12 +96,11 @@ COMMON
 .content-wrapper {
   height: 100%;
   margin-left: 300px;
-  padding: 0 25px;
   font-size: 1.1em;
 }
 
 .container {
-  margin: 40px 0;
+  margin: 40px 25px;
 }
 
 .section-title {
@@ -172,9 +171,6 @@ a:hover {
   margin: 30px auto 30px auto;
   height: 150px;
   width: 150px;
-  background-image: url("../img/avatar.jpg");
-  background-size: 125%;
-  background-position: center;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
