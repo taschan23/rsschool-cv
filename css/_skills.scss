@@ -1,16 +1,16 @@
 .skills {
 	&-list {
-		list-style: square;
 		margin-top: -10px;
+		list-style: square;
 	}
 
 	&-item {
-		margin-left: 15px;
-		padding-top: 10px;
-		color: #a4b0b4;
-		height: 40px;
 		float: left;
 		width:47%;
+		margin-left: 15px;
+		padding-top: 10px;
+		height: 40px;
+		color: #a4b0b4;
 
 		span {
 			color: #000;
@@ -21,19 +21,23 @@
 	.skill-bar {
 		margin-top: -7px;
 		&-unfill {
-			height: 7px;
 			display: inline-block;
-			background: #a4b0b4;
+			height: 7px;
 			width: 60%;
-			border-radius: 8px
+			background: #a4b0b4;
+			border-radius: 8px;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
 		}
 
 		&-fill {
-			height: 7px;
 			display: block;
-			background: #f7db00;
+			height: 7px;
 			width: 0;
+			background: #f7db00;
 			border-radius: 8px;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
 		}
 	}
 }

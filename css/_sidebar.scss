@@ -1,20 +1,20 @@
 .sidebar-wrapper {
-	background-color: #1b2e35;
-	height: 100vh;
-	min-height: 100%;
 	position: absolute;
 	top: 0;
+	width: 300px;
+	height: 100vh;
+	min-height: 100%;
+	color: #afbbc0;
+	background-color: #1b2e35;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22) !important;
 	overflow-y: hidden;
 	z-index: 1000;
-	width: 300px;
-	color: #afbbc0;
 
 	.sidebar {
-		border-top: 2px solid #a4b0b4;
 		margin: 20px 30px;
 		height: inherit;
 		text-align: center;
+		border-top: 2px solid #a4b0b4;
 
 		&-avatar {
 			margin: 30px auto 30px auto;
@@ -24,12 +24,14 @@
 			background-size: 100%;
 			background-position: center;
 			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
 		}
 
 		&-username {
+			color: #eacb04;
 			font-size: 1.4em;
 			letter-spacing: 3px;
-			color: #eacb04;
 		}
 
 		&-developer {
@@ -37,12 +39,12 @@
 		}
 
 		&-title {
+			margin-top: 50px;
+			margin-bottom: 15px;
+			color: #eacb04;
 			font-size: 1.1em;
 			font-weight: 600;
 			letter-spacing: 3px;
-			color: #eacb04;
-			margin-top: 50px;
-			margin-bottom: 15px;
 		}
 
 		.qualities {
@@ -55,10 +57,10 @@
 			}
 
 			&-item {
-				border-bottom: 2px solid #a4b0b4;
-				text-align: left;
 				padding-top: 10px;
 				padding-bottom: 10px;
+				text-align: left;
+				border-bottom: 2px solid #a4b0b4;
 
 				&:last-child {
 					border-bottom: 0;
